@@ -10,9 +10,9 @@ XT-IDE based Compact Flash "Hard Drive"
 ```
 
 ## TO-DO
-BOM
-Assembly Instructions
-BIOS Flashing Instructions
+* BOM
+* Assembly Instructions
+* BIOS Flashing Instructions
 
 ## Getting Started
 
