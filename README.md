@@ -9,25 +9,27 @@ This is a single expansion board designed for the Tandy 1000 EX and HX computers
 XT-IDE based Compact Flash "Hard Drive"
 ```
 
-
-
 ## Getting Started
-
 
 ### Prerequisites
 
-
-```
-Give examples
-```
+This board is for the Tandy 1000EX and 1000HX computers only.  It will not work in any other computer model as it is.
+You must remove any expansion cards already in the computer, this is designed to be a single-board upgrade and has no provisions to allow for any other expansion cards.
 
 ### Installing
 
+This board plugs into the Tandy PLUS interface, and takes up "Slot 2" on the rear of the computer.  Please be careful to align the PLUS bus completely, to avoid bending pins on the computer.
 
-```
-Give the example
-```
 
+## Technical Details
+
+This board is jumperless and is designed to be plug-and-play.   The board is hardwired with these memory locations/ports:
+```
+SRAM:  0x0000-0x5FFF, 0xC800-0xDFFF
+UART:  0x3F8, IRQ 4
+IDE:   0x300
+ROM:   0xC000-0xC7FF
+```
 
 
 ## Built With
