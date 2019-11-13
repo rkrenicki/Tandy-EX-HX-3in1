@@ -9,6 +9,11 @@ This is a single expansion board designed for the Tandy 1000 EX and HX computers
 XT-IDE based Compact Flash "Hard Drive"
 ```
 
+## TO-DO
+BOM
+Assembly Instructions
+BIOS Flashing Instructions
+
 ## Getting Started
 
 ### Prerequisites
