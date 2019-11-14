@@ -42,7 +42,7 @@ ROM:   0xC000-0xC7FF
 Ref(s)            Value
 -------------------------------------------
 BUS1              2x31 2.54mm Header Socket
-R1 through R3     10kohm 1/8w Resistor
+R1 through R3     10kOhm 1/8w Resistor
 C1 through C16    0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 CP1               10-100uF 10-25V Electrolytic or Polymer Capacitor, 2.5mm Lead Spacing
 232-P2            DE9 Male Right Angle Connector   
