@@ -41,20 +41,20 @@ ROM:   0xC000-0xC7FF
 ---------------------------------------
 Ref(s)		Value
 -------------------------------------------
-U1		AT28C64B DIP-28 (EEPROM)
-U2-U3		74HCT688 SOIC-20 7.52mm
-U4		74HCT32 SOIC-14
-U5		74HCT04 SOIC-14
-SW1-SW2		SPDT Slide Switch, right angle (CnK OS102011MA1QN1)
-SW3-SW4		3-position DIP Switch (Piano, 2.54mm) (Best to get two colours; piano style is optional)
-RN1-RN3		10K x 4 Isolated Resistor Array - 4x1206 SMD
-RN4		1K x 4 Isolated Resistor Array - 4x1206 SMD
-R1		5.6K 0805 SMD Resistor
-D1		3mm LED
-P1		3M N7E50-7516TS0884 CF Card Socket
-C1-C6		10 - 100nF  0805 SMD Capacitor
-C7-C8		10uF 0805 SMD Capacitor
-SOCKET		28-pin IC Socket (wide type) (for EEPROM)
+U1          AT28C64B DIP-28 (EEPROM)
+U2-U3       74HCT688 SOIC-20 7.52mm
+U4          74HCT32 SOIC-14
+U5          74HCT04 SOIC-14
+SW1-SW2     SPDT Slide Switch, right angle (CnK OS102011MA1QN1)
+SW3-SW4     3-position DIP Switch (Piano, 2.54mm) (Best to get two colours; piano style is optional)
+RN1-RN3     10K x 4 Isolated Resistor Array - 4x1206 SMD
+RN4         1K x 4 Isolated Resistor Array - 4x1206 SMD
+R1          5.6K 0805 SMD Resistor
+D1          3mm LED
+P1          M N7E50-7516TS0884 CF Card Socket
+C1-C6       10 - 100nF  0805 SMD Capacitor
+C7-C8       10uF 0805 SMD Capacitor
+SOCKET      28-pin IC Socket (wide type) (for EEPROM)
 
 Note:	All 7400 series logic ICs can be substituted for LS, ALS, ACT, F, or HCT equivalents.
 	74*688 and 74*521 are identical ICs. Locally, Texas Instruments 74F521 is cheapest for some reason so I use those.
