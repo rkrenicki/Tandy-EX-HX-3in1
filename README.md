@@ -10,18 +10,16 @@ XT-IDE based Compact Flash "Hard Drive"
 ```
 
 ## TO-DO
-* BOM
 * Assembly Instructions
 * BIOS Flashing Instructions
 
-## Getting Started
 
-### Prerequisites
+## Prerequisites
 
 This board is for the Tandy 1000EX and 1000HX computers only.  It will not work in any other computer model as it is.
 You must remove any expansion cards already in the computer, this is designed to be a single-board upgrade and has no provisions to allow for any other expansion cards.
 
-### Installing
+## Installing
 
 This board plugs into the Tandy PLUS interface, and takes up "Slot 2" on the rear of the computer.  Please be careful to align the PLUS bus completely, to avoid bending pins on the computer.
 
@@ -38,10 +36,10 @@ ROM:   0xC000-0xC7FF
 
 ## Bill of Materials
 ```
----------------------------------------
-Ref(s)            Value
--------------------------------------------
-BUS1              2x31 2.54mm Header Socket
+----------------------------------------------------------------------------------------------------------------------------
+Ref(s)            Description
+----------------------------------------------------------------------------------------------------------------------------
+BUS1              2x31 2.54mm Header Socket 
 R1 through R3     10kOhm 1/8w Resistor
 C1 through C16    0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 CP1               10-100uF 10-25V Electrolytic or Polymer Capacitor, 2.5mm Lead Spacing
