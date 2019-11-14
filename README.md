@@ -39,26 +39,31 @@ ROM:   0xC000-0xC7FF
 ## Bill of Materials
 ```
 ---------------------------------------
-Ref(s)		Value
+Ref(s)            Value
 -------------------------------------------
-U1          AT28C64B DIP-28 (EEPROM)
-U2-U3       74HCT688 SOIC-20 7.52mm
-U4          74HCT32 SOIC-14
-U5          74HCT04 SOIC-14
-SW1-SW2     SPDT Slide Switch, right angle (CnK OS102011MA1QN1)
-SW3-SW4     3-position DIP Switch (Piano, 2.54mm) (Best to get two colours; piano style is optional)
-RN1-RN3     10K x 4 Isolated Resistor Array - 4x1206 SMD
-RN4         1K x 4 Isolated Resistor Array - 4x1206 SMD
-R1          5.6K 0805 SMD Resistor
-D1          3mm LED
-P1          M N7E50-7516TS0884 CF Card Socket
-C1-C6       10 - 100nF  0805 SMD Capacitor
-C7-C8       10uF 0805 SMD Capacitor
-SOCKET      28-pin IC Socket (wide type) (for EEPROM)
+BUS1              2x31 2.54mm Header Socket
+R1 through R3     10kohm 1/8w Resistor
+C1 through C16    0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
+CP1               10-100uF 10-25V Electrolytic or Polymer Capacitor, 2.5mm Lead Spacing
+232-P2            DE9 Male Right Angle Connector   
+232-U6            GD75232N RS232 Driver
+232-U7, 232-U9    74ACT138 3-to-8 Line Demux
+232-U8            16550/16C550 UART in PLCC-44 Package 
+232-U8 Socket     PLCC-44 Through Hole Socket
+CF-J1             2x20 2.54mm Header Socket, 11mm height.
+CF-J2             1x2 2.54mm Header Socket
+CF-U1             74LS129 Dual 2-to-4 Demux
+CF-U2, ROM-U4     74LS688 8-bit Comparator
+CF-U3, RAM-U11    74LS245 Tri-state Bus Transciever
+RAM-U10           AS6C4008-55PCN 4mbit (512k x 8) Static RAM
+RAM-U10 Socket    32-pin Wide DIP Socket
+RAM-U12           74LS00 Quad NAND Gate
+RAM-U13           74LS32 Quad OR Gate
+ROM-U5            28C64 64k x 8 EEPROM
+ROM-U5 Socket     28-pin Wide DIP Socket
 
-Note:	All 7400 series logic ICs can be substituted for LS, ALS, ACT, F, or HCT equivalents.
-	74*688 and 74*521 are identical ICs. Locally, Texas Instruments 74F521 is cheapest for some reason so I use those.
-	PCB can be adjusted for more common CF card types; I just had a bunch of these to use.
+
+Note:	All 74xx series logic ICs can be substituted for LS, ALS, ACT, F, or HCT .
 ```
 
 
