@@ -28,7 +28,6 @@ ROM:   0xC000-0xC7FF
 ```
 
 ## Bill of Materials
-```
 --------------|--------------------|---------------------------------------------------------------------
 Ref(s)        |Mouser Part Number  |Description
 --------------|--------------------|---------------------------------------------------------------------
@@ -56,7 +55,6 @@ ROM-U5 Socket |649-DILB28P223TLF   |28-pin Wide DIP Socket
 
 
 Note:	All 74xx series logic ICs can be substituted for LS, ALS, ACT, F, or HCT .
-```
 
 
 ## Built With
