@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 3-in-1-rescue_16550-PLCC-isa_fdc-rescue
+# 3-in-1-rescue_16550-PLCC-isa_fdc-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_16550-PLCC-isa_fdc-rescue U 0 40 Y Y 1 F N
+DEF 3-in-1-rescue_16550-PLCC-isa_fdc-rescue-3-in-1-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "3-in-1-rescue_16550-PLCC-isa_fdc-rescue" 0 -50 60 H V C CNN
+F1 "3-in-1-rescue_16550-PLCC-isa_fdc-rescue-3-in-1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -57,11 +57,11 @@ X D7 9 -800 450 300 R 50 50 1 1 T
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_28C64-xt-cf-rescue
+# 3-in-1-rescue_28C64-xt-cf-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_28C64-xt-cf-rescue U 0 40 Y Y 1 F N
+DEF 3-in-1-rescue_28C64-xt-cf-rescue-3-in-1-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "3-in-1-rescue_28C64-xt-cf-rescue" 0 -50 60 H V C CNN
+F1 "3-in-1-rescue_28C64-xt-cf-rescue-3-in-1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -97,11 +97,11 @@ X A1 9 -700 750 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_74LS138-isa_fdc-rescue
+# 3-in-1-rescue_74LS138-isa_fdc-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_74LS138-isa_fdc-rescue U 0 10 Y Y 1 F N
+DEF 3-in-1-rescue_74LS138-isa_fdc-rescue-3-in-1-rescue U 0 10 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "3-in-1-rescue_74LS138-isa_fdc-rescue" 0 -50 60 H V C CNN
+F1 "3-in-1-rescue_74LS138-isa_fdc-rescue-3-in-1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -128,11 +128,11 @@ X ~Y6 9 600 -250 300 L 50 50 1 1 O I
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_74LS688-xt-cf-rescue
+# 3-in-1-rescue_74LS688-xt-cf-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_74LS688-xt-cf-rescue U 0 10 Y Y 1 F N
+DEF 3-in-1-rescue_74LS688-xt-cf-rescue-3-in-1-rescue U 0 10 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "3-in-1-rescue_74LS688-xt-cf-rescue" 0 -50 60 H V C CNN
+F1 "3-in-1-rescue_74LS688-xt-cf-rescue-3-in-1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -160,11 +160,11 @@ X Q3 9 -600 -300 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_C-isa_fdc-rescue
+# 3-in-1-rescue_C-isa_fdc-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_C-isa_fdc-rescue C 0 10 N Y 1 F N
+DEF 3-in-1-rescue_C-isa_fdc-rescue-3-in-1-rescue C 0 10 N Y 1 F N
 F0 "C" 50 100 50 H V L CNN
-F1 "3-in-1-rescue_C-isa_fdc-rescue" 50 -100 50 H V L CNN
+F1 "3-in-1-rescue_C-isa_fdc-rescue-3-in-1-rescue" 50 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -180,11 +180,11 @@ X ~ 2 0 -200 170 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_DB9-isa_fdc-rescue
+# 3-in-1-rescue_DB9-isa_fdc-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_DB9-isa_fdc-rescue J 0 40 Y N 1 F N
+DEF 3-in-1-rescue_DB9-isa_fdc-rescue-3-in-1-rescue J 0 40 Y N 1 F N
 F0 "J" 0 550 70 H V C CNN
-F1 "3-in-1-rescue_DB9-isa_fdc-rescue" 0 -550 70 H V C CNN
+F1 "3-in-1-rescue_DB9-isa_fdc-rescue-3-in-1-rescue" 0 -550 70 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -233,11 +233,11 @@ X P9 9 -450 300 300 R 60 60 1 1 P
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_GD75232-isa_fdc-rescue
+# 3-in-1-rescue_GD75232-isa_fdc-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_GD75232-isa_fdc-rescue U 0 40 Y Y 1 F N
+DEF 3-in-1-rescue_GD75232-isa_fdc-rescue-3-in-1-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "3-in-1-rescue_GD75232-isa_fdc-rescue" 0 -50 60 H V C CNN
+F1 "3-in-1-rescue_GD75232-isa_fdc-rescue-3-in-1-rescue" 0 -50 60 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -265,11 +265,11 @@ X RA5 9 -800 -350 300 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# 3-in-1-rescue_R-xt-cf-rescue
+# 3-in-1-rescue_R-xt-cf-rescue-3-in-1-rescue
 #
-DEF 3-in-1-rescue_R-xt-cf-rescue R 0 0 N Y 1 F N
+DEF 3-in-1-rescue_R-xt-cf-rescue-3-in-1-rescue R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "3-in-1-rescue_R-xt-cf-rescue" 0 0 50 V V C CNN
+F1 "3-in-1-rescue_R-xt-cf-rescue-3-in-1-rescue" 0 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -283,6 +283,80 @@ DRAW
 S -40 150 40 -150 0 1 12 N
 X ~ 1 0 250 100 D 60 60 1 1 P
 X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 3-in-1-rescue_TANDY_BUS-xt-cf-rescue
+#
+DEF 3-in-1-rescue_TANDY_BUS-xt-cf-rescue BUS 0 40 Y Y 1 F N
+F0 "BUS" -200 1900 70 H V C CNN
+F1 "3-in-1-rescue_TANDY_BUS-xt-cf-rescue" -200 1800 70 H V C CNN
+F2 "" -200 1850 50 H I C CNN
+F3 "" -200 1850 50 H I C CNN
+DRAW
+S -600 -1600 250 1600 0 1 0 N
+X NMI 1 -900 1500 300 R 60 60 1 1 I I
+X RDYIN 10 -900 600 300 R 60 60 1 1 I
+X AEN 11 -900 500 300 R 60 60 1 1 O
+X A19 12 -900 400 300 R 60 60 1 1 O
+X A18 13 -900 300 300 R 60 60 1 1 O
+X A17 14 -900 200 300 R 60 60 1 1 O
+X A16 15 -900 100 300 R 60 60 1 1 O
+X A15 16 -900 0 300 R 60 60 1 1 O
+X A14 17 -900 -100 300 R 60 60 1 1 O
+X A13 18 -900 -200 300 R 60 60 1 1 O
+X A12 19 -900 -300 300 R 60 60 1 1 O
+X D7 2 -900 1400 300 R 60 60 1 1 B
+X A11 20 -900 -400 300 R 60 60 1 1 O
+X A10 21 -900 -500 300 R 60 60 1 1 O
+X A9 22 -900 -600 300 R 60 60 1 1 O
+X A8 23 -900 -700 300 R 60 60 1 1 O
+X A7 24 -900 -800 300 R 60 60 1 1 O
+X A6 25 -900 -900 300 R 60 60 1 1 O
+X A5 26 -900 -1000 300 R 60 60 1 1 O
+X A4 27 -900 -1100 300 R 60 60 1 1 O
+X A3 28 -900 -1200 300 R 60 60 1 1 O
+X A2 29 -900 -1300 300 R 60 60 1 1 O
+X D6 3 -900 1300 300 R 60 60 1 1 B
+X A1 30 -900 -1400 300 R 60 60 1 1 O
+X A0 31 -900 -1500 300 R 60 60 1 1 O
+X GND 32 550 1500 300 L 60 60 1 1 w
+X RESET 33 550 1400 300 L 60 60 1 1 O
+X +5V 34 550 1300 300 L 60 60 1 1 w
+X IRQ2 35 550 1200 300 L 60 60 1 1 I
+X UNUSED 36 550 1100 300 L 60 60 1 1 N
+X FDCDMRQ 37 550 1000 300 L 60 60 1 1 I
+X -12V 38 550 900 300 L 60 60 1 1 w
+X UNUSED 39 550 800 300 L 60 60 1 1 N
+X D5 4 -900 1200 300 R 60 60 1 1 B
+X +12V 40 550 700 300 L 60 60 1 1 w
+X GND 41 550 600 300 L 60 60 1 1 w
+X MEMW 42 550 500 300 L 60 60 1 1 O I
+X MEMR 43 550 400 300 L 60 60 1 1 O I
+X IOW 44 550 300 300 L 60 60 1 1 O I
+X IOR 45 550 200 300 L 60 60 1 1 O I
+X UNUSED 46 550 100 300 L 60 60 1 1 N
+X UNUSED 47 550 0 300 L 60 60 1 1 N
+X UNUSED 48 550 -100 300 L 60 60 1 1 N I
+X UNUSED 49 550 -200 300 L 60 60 1 1 N
+X D4 5 -900 1100 300 R 60 60 1 1 B
+X REFRESH 50 550 -300 300 L 60 60 1 1 O I
+X CLK 51 550 -400 300 L 60 60 1 1 O
+X RFSH 52 550 -500 300 L 60 60 1 1 I
+X BREQ 53 550 -600 300 L 60 60 1 1 I
+X UNUSED 54 550 -700 300 L 60 60 1 1 N
+X IRQ4 55 550 -800 300 L 60 60 1 1 I
+X IRQ3 56 550 -900 300 L 60 60 1 1 I
+X FDCDACK 57 550 -1000 300 L 60 60 1 1 O I
+X DMATC 58 550 -1100 300 L 60 60 1 1 O
+X ALE 59 550 -1200 300 L 60 60 1 1 O
+X D3 6 -900 1000 300 R 60 60 1 1 B
+X +5V 60 550 -1300 300 L 60 60 1 1 w
+X OSC 61 550 -1400 300 L 60 60 1 1 O
+X GND 62 550 -1500 300 L 60 60 1 1 w
+X D2 7 -900 900 300 R 60 60 1 1 B
+X D1 8 -900 800 300 R 60 60 1 1 B
+X D0 9 -900 700 300 R 60 60 1 1 B
 ENDDRAW
 ENDDEF
 #
@@ -674,6 +748,41 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Jumper_Jumper_2_Open
+#
+DEF Jumper_Jumper_2_Open JP 0 0 Y N 1 F N
+F0 "JP" 0 110 50 H V C CNN
+F1 "Jumper_Jumper_2_Open" 0 -90 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*Open*
+$ENDFPLIST
+DRAW
+A 0 -30 100 1269 531 0 1 0 N -60 50 60 50
+C -80 0 20 0 0 0 N
+C 80 0 20 0 0 0 N
+X A 1 -200 0 100 R 50 50 1 1 P
+X B 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Mechanical_MountingHole_Pad
+#
+DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "Mechanical_MountingHole_Pad" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Memory_RAM_AS6C4008-55PCN
 #
 DEF Memory_RAM_AS6C4008-55PCN U 0 20 Y Y 1 F N
@@ -795,80 +904,6 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
 X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# xt-cf-rescue_TANDY_BUS
-#
-DEF xt-cf-rescue_TANDY_BUS BUS 0 40 Y Y 1 F N
-F0 "BUS" -200 1900 70 H V C CNN
-F1 "xt-cf-rescue_TANDY_BUS" -200 1800 70 H V C CNN
-F2 "" -200 1850 50 H I C CNN
-F3 "" -200 1850 50 H I C CNN
-DRAW
-S -600 -1600 250 1600 0 1 0 N
-X NMI 1 -900 1500 300 R 60 60 1 1 I I
-X RDYIN 10 -900 600 300 R 60 60 1 1 I
-X AEN 11 -900 500 300 R 60 60 1 1 O
-X A19 12 -900 400 300 R 60 60 1 1 O
-X A18 13 -900 300 300 R 60 60 1 1 O
-X A17 14 -900 200 300 R 60 60 1 1 O
-X A16 15 -900 100 300 R 60 60 1 1 O
-X A15 16 -900 0 300 R 60 60 1 1 O
-X A14 17 -900 -100 300 R 60 60 1 1 O
-X A13 18 -900 -200 300 R 60 60 1 1 O
-X A12 19 -900 -300 300 R 60 60 1 1 O
-X D7 2 -900 1400 300 R 60 60 1 1 B
-X A11 20 -900 -400 300 R 60 60 1 1 O
-X A10 21 -900 -500 300 R 60 60 1 1 O
-X A9 22 -900 -600 300 R 60 60 1 1 O
-X A8 23 -900 -700 300 R 60 60 1 1 O
-X A7 24 -900 -800 300 R 60 60 1 1 O
-X A6 25 -900 -900 300 R 60 60 1 1 O
-X A5 26 -900 -1000 300 R 60 60 1 1 O
-X A4 27 -900 -1100 300 R 60 60 1 1 O
-X A3 28 -900 -1200 300 R 60 60 1 1 O
-X A2 29 -900 -1300 300 R 60 60 1 1 O
-X D6 3 -900 1300 300 R 60 60 1 1 B
-X A1 30 -900 -1400 300 R 60 60 1 1 O
-X A0 31 -900 -1500 300 R 60 60 1 1 O
-X GND 32 550 1500 300 L 60 60 1 1 w
-X RESET 33 550 1400 300 L 60 60 1 1 O
-X +5V 34 550 1300 300 L 60 60 1 1 w
-X IRQ2 35 550 1200 300 L 60 60 1 1 I
-X UNUSED 36 550 1100 300 L 60 60 1 1 N
-X FDCDMRQ 37 550 1000 300 L 60 60 1 1 I
-X -12V 38 550 900 300 L 60 60 1 1 w
-X UNUSED 39 550 800 300 L 60 60 1 1 N
-X D5 4 -900 1200 300 R 60 60 1 1 B
-X +12V 40 550 700 300 L 60 60 1 1 w
-X GND 41 550 600 300 L 60 60 1 1 w
-X MEMW 42 550 500 300 L 60 60 1 1 O I
-X MEMR 43 550 400 300 L 60 60 1 1 O I
-X IOW 44 550 300 300 L 60 60 1 1 O I
-X IOR 45 550 200 300 L 60 60 1 1 O I
-X UNUSED 46 550 100 300 L 60 60 1 1 N
-X UNUSED 47 550 0 300 L 60 60 1 1 N
-X UNUSED 48 550 -100 300 L 60 60 1 1 N I
-X UNUSED 49 550 -200 300 L 60 60 1 1 N
-X D4 5 -900 1100 300 R 60 60 1 1 B
-X REFRESH 50 550 -300 300 L 60 60 1 1 O I
-X CLK 51 550 -400 300 L 60 60 1 1 O
-X RFSH 52 550 -500 300 L 60 60 1 1 I
-X BREQ 53 550 -600 300 L 60 60 1 1 I
-X UNUSED 54 550 -700 300 L 60 60 1 1 N
-X IRQ4 55 550 -800 300 L 60 60 1 1 I
-X IRQ3 56 550 -900 300 L 60 60 1 1 I
-X FDCDACK 57 550 -1000 300 L 60 60 1 1 O I
-X DMATC 58 550 -1100 300 L 60 60 1 1 O
-X ALE 59 550 -1200 300 L 60 60 1 1 O
-X D3 6 -900 1000 300 R 60 60 1 1 B
-X +5V 60 550 -1300 300 L 60 60 1 1 w
-X OSC 61 550 -1400 300 L 60 60 1 1 O
-X GND 62 550 -1500 300 L 60 60 1 1 w
-X D2 7 -900 900 300 R 60 60 1 1 B
-X D1 8 -900 800 300 R 60 60 1 1 B
-X D0 9 -900 700 300 R 60 60 1 1 B
 ENDDRAW
 ENDDEF
 #
