@@ -31,6 +31,7 @@ ROM:   0xC000-0xC7FF
 
 ## Assembly Notes
 All functions of the board are independent, and no parts are shared beyond power delivery.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
+The backplate for the CF card must have a hole created for the DE9 Serial connector.   I recommend not soldering down the DE9 Male connector until after the hole is made, and the CF adapter is mounted to the board.
 
 
 ## Bill of Materials
@@ -46,7 +47,7 @@ All functions of the board are independent, and no parts are shared beyond power
 |232-U7, 232-U9|595-SN74HCT138N     |74LS138 3-to-8 Line Demux
 |232-U8        |701-ST16C550IJ44-F  |16550/16C550 UART in PLCC-44 Package 
 |232-U8 Socket |940-44-044-24-000000|PLCC-44 Through Hole Socket
-|CF-J1         |710-61304021821     |2x20 2.54mm Header Socket, 11mm height.
+|CF-J1         |n/a                 |2x20 2.54mm Header Socket, 11mm height.
 |CF-J2         |200-CES10101TD      |1x2 2.54mm Header Socket
 |CF-U1         |595-SN74HCT139N     |74LS129 Dual 2-to-4 Demux
 |CF-U2, ROM-U4 |595-CD74HCT688E     |74LS688 8-bit Comparator
