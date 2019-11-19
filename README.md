@@ -19,7 +19,7 @@ The IDE BIOS will automatically start and boot directly to the CF card on 1000EX
 
 ## Technical Details
 
-This board has no configuration jumpers and is designed to be plug-and-play.  The only jumper is for write protecting the ROM.  Install the jumper to flash the XT-IDE BIOS, or to write XT-IDE Configuration changes, otherwise the jumper should be removed.
+This board has no configuration jumpers and is designed to be plug-and-play.  The only jumper is for write protecting the ROM.  Install the jumper to flash the XT-IDE BIOS, otherwise the jumper should be removed.
 
 The board is hardwired with these memory locations/ports:
 ```
