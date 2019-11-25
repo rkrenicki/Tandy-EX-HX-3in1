@@ -30,7 +30,7 @@ ROM:   0xC000-0xC7FF
 ```
 
 ## Assembly Notes
-All functions of the board are independent, and no parts are shared beyond power delivery.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
+All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
 The backplate for the CF card must have a hole created for the DE9 Serial connector.   I recommend not soldering down the DE9 Male connector until after the hole is made, and the CF adapter is mounted to the board.
 
 
@@ -62,7 +62,7 @@ The backplate for the CF card must have a hole created for the DE9 Serial connec
 |ROM-U5 Socket |649-DILB28P223TLF   |28-pin Wide DIP Socket
 
 
-Note:	All 74LSxx series logic ICs can be substituted for ALS, ACT, F, or HCT .
+Note:	All 74LSxx series logic ICs can be substituted with ALS, ACT, AHCT, F, or HCT.
 
 
 ## Built With
