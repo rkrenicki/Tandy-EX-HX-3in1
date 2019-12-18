@@ -34,6 +34,20 @@ All functions of the board are independent, no parts are shared between function
 Boards prior to version 1.8 require a pull-up resistor to be bodged on if using a 28C64 EEPROM.   If using a 27C64, this can be omitted.  This resistor is noted as "R4" on version 1.8 and any subsequent boards.   
 On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.
 
+Recommended assembly order: (Shortest to tallest)
+1 - Resistors (R1-R4)
+2 - Bypass Capacitors (C1-C16)
+3 - Non-socketed Chips (U1-4, U6-7, U9-13)
+4 - ROM Socket (U5)
+5 - Oscillator (OSC1)
+6 - UART Socket (U8)
+7 - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
+8 - CF Adapter
+9 - Backplate
+
+NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  232-U6, 232-U8, and RAM-U11 are all opposite oritentation than the other horizontal chips.  Installing these backwards will destroy the chips.   Pay special attention to 232-U8's socket, it must be installed with the "Pin 1 Arrow" installed facing towards the left of the board.
+
+
 ## Bill of Materials
 |Quan |Ref(s)        |Mouser Part Number  |Description                                                     
 |-----|--------------|--------------------|----------------------------------------------------------------
