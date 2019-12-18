@@ -31,8 +31,8 @@ ROM:   0xC000-0xC7FF
 
 ## Assembly Notes
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
-The backplate for the CF card must have a hole created for the DE9 Serial connector.   I recommend not soldering down the DE9 Male connector until after the hole is made, and the CF adapter is mounted to the board.
-
+Boards prior to version 1.8 require a pull-up resistor to be bodged on if using a 28C64 EEPROM.   If using a 27C64, this can be omitted.  This resistor is noted as "R4" on version 1.8 and any subsequent boards.   
+On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.
 
 ## Bill of Materials
 |Quan |Ref(s)        |Mouser Part Number  |Description                                                     
@@ -41,23 +41,23 @@ The backplate for the CF card must have a hole created for the DE9 Serial connec
 | 1   |CF-J1         |517-8540-4500PL     |2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 |299-10K-RC          |10kOhm 1/8w Resistor
 | 16  |C1 through C16|594-K104M15X7RF53L2 |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
-| 1   |CP1           |667-16SEPC100MW     |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
-| 1   |232-OSC1      |ECS-2100AX-1.8432MHZ|1.8432Mhz 1/2-size Oscillator
-| 1   |232-P2        |806-K22X-E9P-N-99   |DE9 Male Right Angle Connector   
+| 1   |CP1           |647-RNU1C101MDS1    |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
+| 1   |232-OSC1      |774-MXO45HS-3C-1.8  |1.8432Mhz 1/2-size Oscillator
+| 1   |232-P2        |806-K22X-E9P-N-99   |DE9 Male Right Angle Connector  
+| 2   |232-P2 Screw  |636-SFSO4401NR      |Jackscrew for DE9 connector
 | 1   |232-U6        |595-GD75232N        |GD75232N RS232 Driver
 | 2   |232-U7, 232-U9|595-SN74LS138N      |74LS138 3-to-8 Line Demux
-| 1   |232-U8        |595-TL16C550CIFN    |16550/16C550 UART in PLCC-44 Package 
-| 1   |232-U8 Socket |649-54020-44030LF   |PLCC-44 Through Hole Socket
+| 1   |232-U8        |701-ST16C550CJ44TR-F|16550/16C550 UART in PLCC-44 Package 
+| 1   |232-U8 Socket |517-8444-11B1-RK-TP |PLCC-44 Through Hole Socket
 | 1   |CF-J2         |200-CES10101TD      |1x2 2.54mm Header Socket
 | 1   |CF-U1         |595-SN74LS139AN     |74LS129 Dual 2-to-4 Demux
 | 2   |CF-U2, ROM-U4 |595-SN74LS688N      |74LS688 8-bit Comparator
 | 2   |CF-U3, RAM-U11|595-SN74LS245N      |74LS245 Tri-state Bus Transciever
 | 1   |RAM-U10       |913-AS6C4008-55PCN  |AS6C4008-55PCN 4mbit (512k x 8) Static RAM
-| 1   |RAM-U10 Socket|649-DILB32P223TLF   |32-pin Wide DIP Socket
 | 1   |RAM-U12       |595-SN74LS00N       |74LS00 Quad NAND Gate
 | 1   |RAM-U13       |595-SN74LS32N       |74LS32 Quad OR Gate
 | 1   |ROM-U5        |556-AT28C64B15PU    |28C64 64k x 8 EEPROM
-| 1   |ROM-U5 Socket |649-DILB28P223TLF   |28-pin Wide DIP Socket
+| 1   |ROM-U5 Socket |517-4828-6000-CP    |28-pin Wide DIP Socket
 
 
 Note:	All 74LSxx series logic ICs can be substituted with ALS, ACT, AHCT, F, or HCT.
