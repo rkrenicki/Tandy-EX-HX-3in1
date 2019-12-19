@@ -19,7 +19,7 @@ The IDE BIOS will automatically start and boot directly to the CF card on 1000EX
 
 ## Technical Details
 
-This board has no configuration jumpers and is designed to be plug-and-play.  The only jumper is for write protecting the ROM.  Install the jumper to flash the XT-IDE BIOS, otherwise the jumper should be removed.
+This board has no configuration jumpers and is designed to be plug-and-play.  The only jumper is to enable programming the ROM.  Install the jumper to flash the XT-IDE BIOS, otherwise the jumper should be removed.  All assembled boards and kits sold by me come with a pre-programmed ROM, and this jumper should be left empty.
 
 The board is hardwired with these memory locations/ports:
 ```
@@ -31,12 +31,13 @@ ROM:   0xC000-0xC7FF
 
 ## Assembly Notes
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
-Boards prior to version 1.8 require a pull-up resistor to be bodged on if using a 28C64 EEPROM.   If using a 27C64, this can be omitted.  This resistor is noted as "R4" on version 1.8 and any subsequent boards.   
-On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.
+IMPORTANT ASSEMBLY NOTE!  Boards prior to version 1.8 require a pull-up resistor to be bodged on if using a 28C64 EEPROM.   If using a 27C64, this can be omitted.  This resistor is noted as "R4" on version 1.8 and any subsequent boards.   
+On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.  I personally prefer the second option, as the two points are approximately the correct distance apart for a 1/8w resistor.
 
 Recommended assembly order: (Shortest to tallest)
-1 - Resistors (R1-R4)
-2 - Bypass Capacitors (C1-C16)
+1 - Resistors (R1-R3, R4 for v1.8)
+2 - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
+2a- Bodge Resistor on v1.7a board on rear of board.
 3 - Non-socketed Chips (U1-4, U6-7, U9-13)
 4 - ROM Socket (U5)
 5 - Oscillator (OSC1)
