@@ -35,18 +35,19 @@ IMPORTANT ASSEMBLY NOTE!  Boards prior to version 1.8 require a pull-up resistor
 On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.  I personally prefer the second option, as the two points are approximately the correct distance apart for a 1/8w resistor.
 
 Recommended assembly order: (Shortest to tallest)
-1 - Resistors (R1-R3, R4 for v1.8)
-2 - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
-2a- Bodge Resistor on v1.7a board on rear of board.
-3 - Non-socketed Chips (U1-4, U6-7, U9-13)
-4 - ROM Socket (U5)
-5 - Oscillator (OSC1)
-6 - UART Socket (U8)
-7 - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
-8 - CF Adapter
-9 - Backplate
+1  - Resistors (R1-R3, R4 for v1.8)
+2  - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
+2a - Bodge Resistor on rear of board.  (Only for Version 1.7a boards)
+3  - 74 series Chips (U1-4, U6-7, U9, U11-13)
+4  - ROM Socket (U5 Socket)
+5  - SRAM Chip (U10)
+6  - Oscillator (OSC1)
+7  - UART Socket (U8 Socket)  - Pay very special attention to the orientation!  See note below.
+8  - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
+9  - CF Adapter
+10 - Backplate
 
-NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  232-U6, 232-U8, and RAM-U11 are all opposite oritentation than the other horizontal chips.  Installing these backwards will destroy the chips.   Pay special attention to 232-U8's socket, it must be installed with the "Pin 1 Arrow" installed facing towards the left of the board.
+NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  232-U6, 232-U8, and RAM-U11 are all opposite oritentation than the other horizontal chips.  Installing these backwards will destroy the chips.   Pay special attention to 232-U8's socket, it must be installed with the "Pin 1 Arrow" installed facing towards the left of the board.  232-OSC1 is installed "upside down", with the squared corner facing the upper right.
 
 
 ## Bill of Materials
@@ -92,7 +93,7 @@ This project is licensed under the Creative Commons - Attribution - ShareAlike 3
 
 ## Attribution
 
-This board was derrived from works by, and contains sofware writen by the following:
+This board was derrived from works by, uses design elements from, or contains sofware writen by the following:
 * Sergey Kiselev (http://www.malinov.com/Home/sergeys-projects)
 * James Pearce (https://www.lo-tech.co.uk/)
 * Adrian Black (https://www.youtube.com/user/craig1black/featured)
