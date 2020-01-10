@@ -44,8 +44,9 @@ Recommended assembly order: (Shortest to tallest)
 6  - Oscillator (OSC1)
 7  - UART Socket (U8 Socket)  - Pay very special attention to the orientation!  See note below.
 8  - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
-9  - CF Adapter
-10 - Backplate
+9 -  ROM and UART chips into their sockets.
+10  - CF Adapter
+11 - Backplate
 
 NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  232-U6, 232-U8, and RAM-U11 are all opposite oritentation than the other horizontal chips.  Installing these backwards will destroy the chips.   Pay special attention to 232-U8's socket, it must be installed with the "Pin 1 Arrow" installed facing towards the left of the board.  232-OSC1 is installed "upside down", with the squared corner facing the upper right.
 
