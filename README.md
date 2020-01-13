@@ -31,6 +31,7 @@ ROM:   0xC000-0xC7FF
 
 ## Assembly Notes
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
+
 IMPORTANT ASSEMBLY NOTE!  Boards prior to version 1.8 require a pull-up resistor to be bodged on if using a 28C64 EEPROM.   If using a 27C64, this can be omitted.  This resistor is noted as "R4" on version 1.8 and any subsequent boards.   
 On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.  I personally prefer the second option, as the two points are approximately the correct distance apart for a 1/8w resistor.
 
