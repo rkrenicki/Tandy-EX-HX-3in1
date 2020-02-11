@@ -56,8 +56,8 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 ## Bill of Materials
 |Quan |Ref(s)        |Mouser Part Number  |Description                                                     
 |-----|--------------|--------------------|----------------------------------------------------------------
-| 1   |BUS1          |200-CES13101SD      |2x31 2.54mm Header Socket (Or cut off last two pins of a cheaper 2x32 header)
-| 1   |CF-J1         |517-8540-4500PL     |2x20 2.54mm Header Socket, 11mm height.
+| 1   |BUS1          |200-CES13101SD     (Included in Parts Kit)      |2x31 2.54mm Header Socket (Or cut off last two pins of a cheaper 2x32 header)
+| 1   |CF-J1         |517-8540-4500PL     (Included in Parts Kit)  |2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 |299-10K-RC          |10kOhm 1/8w Resistor
 | 16  |C1 through C16|594-K104M15X7RF53L2 |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
@@ -79,7 +79,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |ROM-U5 Socket |517-4828-6000-CP    |28-pin Wide DIP Socket
 
 
-Note:	All 74LSxx series logic ICs can be substituted with ALS, ACT, AHCT, F, or HCT.
+Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, F, or HCT.
 
 
 ## Built With
