@@ -56,8 +56,8 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 ## Bill of Materials
 |Quan |Ref(s)        |Mouser Part Number  |Description                                                     
 |-----|--------------|--------------------|----------------------------------------------------------------
-| 1   |BUS1          |(Included in Parts Kit) 200-CES13101SD|2x31 2.54mm Header Socket
-| 1   |CF-J1         |(Included in Parts Kit) 517-8540-4500PL|2x20 2.54mm Header Socket, 11mm height.
+| 1   |BUS1          |(Included in Parts Kit)<br>200-CES13101SD|2x31 2.54mm Header Socket
+| 1   |CF-J1         |(Included in Parts Kit)<br>517-8540-4500PL|2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 |299-10K-RC          |10kOhm 1/8w Resistor
 | 16  |C1 through C16|594-K104M15X7RF53L2 |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
