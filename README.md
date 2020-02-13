@@ -33,7 +33,7 @@ ROM:   0xC000-0xC7FF
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
 
 IMPORTANT ASSEMBLY NOTE!  Boards prior to version 1.8 require a pull-up resistor to be bodged on.  This resistor is noted as "R4" on version 1.8 and any subsequent boards.   
-On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin.  I personally prefer the second option, as the two points are approximately the correct distance apart for a 1/8w resistor.
+On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin. 
 
 Recommended assembly order: (Shortest to tallest)
 * 1  - Resistors (R1-R3, R4 for v1.8)
@@ -81,6 +81,12 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 
 Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, F, or HCT.
 
+## BIOS
+
+This board uses the XT-IDE Universal BIOS.  I have included pre-configued images for 2.0.0B3 r602 (latest version as of the time of writing this).  The 3in1BIOS-8088.zip will work on any EX or HX computer, and is the version that I preload on assembled boards and kits.   I have also included a V20 Enhanced version for any EX/HX that has an NEC V20 (or clone) installed.   This enhanced version will roughly double your disk speed, but only works on V20 machines.
+
+
+
 
 ## Built With
 
@@ -105,4 +111,4 @@ This board was derrived from works by, uses design elements from, or contains so
 
 ## README TO-DO
 * Assembly Instructions
-* BIOS Flashing Instructions
+
