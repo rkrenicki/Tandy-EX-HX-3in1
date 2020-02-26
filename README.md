@@ -75,7 +75,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |RAM-U10       |913-AS6C4008-55PCN  |AS6C4008-55PCN 4mbit (512k x 8) Static RAM
 | 1   |RAM-U12       |595-SN74LS00N       |74LS00 Quad NAND Gate
 | 1   |RAM-U13       |595-SN74LS32N       |74LS32 Quad OR Gate
-| 1   |ROM-U5        |556-AT28C64B15PU    |28C64 64k x 8 EEPROM
+| 1   |ROM-U5        |(<b><i>Included in Parts Kit</i></b>)<br>556-AT28C64B15PU    |28C64 64k x 8 EEPROM
 | 1   |ROM-U5 Socket |517-4828-6000-CP    |28-pin Wide DIP Socket
 
 
