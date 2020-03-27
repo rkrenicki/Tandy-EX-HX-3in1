@@ -79,7 +79,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |ROM-U5 Socket |517-4828-6000-CP    |28-pin Wide DIP Socket
 
 
-Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, F, or HCT.
+Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, or HCT among others.
 
 ## BIOS
 
