@@ -36,7 +36,7 @@ IMPORTANT ASSEMBLY NOTE!  Boards prior to version 1.8 require a pull-up resistor
 On version 1.7A, There are two easy options for this resistor.   First option is between pins 27 and 28 of ROM-U5 on the underside.   Second option is between the round pad of ROM-JP1 and the +5v pin of the nearby 0.1uF capacitor which is the closest pin. 
 
 Recommended assembly order: (Shortest to tallest)
-* 1  - Resistors (R1-R3, R4 for v1.8)
+* 1  - Resistors (R1-R3, R4 for v1.8+)
 * 2  - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
 * 3  - 74 series Chips (U1-4, U6-7, U9, U11-13)
 * 4  - ROM Socket (U5 Socket)
@@ -58,7 +58,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 |-----|--------------|--------------------|----------------------------------------------------------------
 | 1   |BUS1          |(<b><i>Included in Parts Kit</i></b>)<br>200-CES13101SD|2x31 2.54mm Header Socket
 | 1   |CF-J1         |(<b><i>Included in Parts Kit</i></b>)<br>517-8540-4500PL|2x20 2.54mm Header Socket, 11mm height.
-| 4   |R1 through R4 |603-CFR25SJT-26-10K |10kOhm 1/8w Resistor
+| 4   |R1 through R4 |603-CFR25SJT-26-10K |10kOhm Resistor
 | 16  |C1 through C16|594-K104M15X7RF53L2 |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
 | 1   |232-OSC1      |774-MXO45HS-3C-1.8  |1.8432Mhz 1/2-size Oscillator
@@ -77,6 +77,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |RAM-U13       |595-SN74LS32N       |74LS32 Quad OR Gate
 | 1   |ROM-U5        |556-AT28C64B15PU    |28C64 64k x 8 EEPROM
 | 1   |ROM-U5 Socket |517-4828-6000-CP    |28-pin Wide DIP Socket
+| 1   |CF-IDE Adapter|n/a                 |CF to IDE Adapter from eBay or AliExpress (See note below)
 
 
 Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, or HCT among others.
@@ -84,6 +85,14 @@ Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" o
 ## BIOS
 
 This board uses the XT-IDE Universal BIOS.  I have included pre-configured images for 2.0.0B3 r602 (latest version as of the time of writing this).  The 3in1BIOS-8088.zip will work on any EX or HX computer, and is the version that I preload on assembled boards and kits.   I have also included a V20 Enhanced version for any EX/HX that has an NEC V20 (or clone) installed.   This enhanced version will roughly double your disk speed, but only works on V20 machines.
+
+## CF-IDE Adapter
+
+This board is designed a specific version of a CF-IDE adapter.  They are widely available on eBay and AliExpress.  It bears the mark of "IDE to CF Ver.D2".  It can generally be identified by the metal cover over the CF card connector.   I do not have a link to any one specific vendor or listing, but if the adapter includes the metal backplate and has a metal cover over the CF slot, then it should be correct. 
+
+The CF adapter does also need a few modifications, please refer to the "IDE Adapter Modifications.pdf" for details.  It also has photos of the adapter for reference to buy the proper adapter.
+
+If you have any questions, feel free to join the Discord server below and ask in the #tandy-3in1-support channel.
 
 
 ## Support Discord
