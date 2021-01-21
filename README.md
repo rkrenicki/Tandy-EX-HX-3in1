@@ -69,7 +69,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |232-U8        |701-ST16C550CJ44TR-F|16550/16C550 UART in PLCC-44 Package 
 | 1   |232-U8 Socket |517-8444-11B1-RK-TP |PLCC-44 Through Hole Socket
 | 1   |CF-J2         |200-CES10101TD      |1x2 2.54mm Header Socket
-| 1   |CF-U1         |595-SN74LS139AN     |74LS129 Dual 2-to-4 Demux
+| 1   |CF-U1         |595-SN74LS139AN     |74LS139 Dual 2-to-4 Demux
 | 2   |CF-U2, ROM-U4 |595-SN74LS688N<br> or 595-SN74F521N      |74LS688 or 74F521 8-bit Comparator
 | 2   |CF-U3, RAM-U11|595-SN74LS245N      |74LS245 Tri-state Bus Transciever
 | 1   |RAM-U10       |913-AS6C4008-55PCN  |AS6C4008-55PCN 4mbit (512k x 8) Static RAM
