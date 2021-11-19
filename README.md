@@ -101,7 +101,7 @@ I have started a Discord server for more real-time technical support, as well as
 
 ## Built With
 
-* [KiCAD EDA](http://www.kicad-pcb.org/)
+* [KiCAD EDA](http://www.kicad.org/)
 
 ## Authors
 
