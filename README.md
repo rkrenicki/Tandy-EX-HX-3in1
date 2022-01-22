@@ -54,18 +54,18 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 ## Bill of Materials
 |Quantity |Ref(s)        |Mouser Part Number  |Digikey Part Number |Description                                                     
 |-----|--------------|--------------------|--------------------|----------------------------------------------------------------
-| 1   |BUS1          |200-CES13101SD<br><i><b>See Note2 Below</i>| |2x31 2.54mm Header Socket
+| 1   |BUS1          |200-CES13101SD<br><i><b>See Note2 Below</i>|SAM1084-31-ND    |2x31 2.54mm Header Socket
 | 1   |CF-J1         |517-8540-4500PL<br><i><b>See Note2 Below</i>| |2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 |603-CFR-12JT-52-10K | |10kOhm Resistor
 | 16  |C1 through C16|594-K104M15X7RF53L2 | |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    | |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
 | 1   |232-OSC1      |774-MXO45HS-3C-1.8  |110-MXO45HS-3C-1M843200-ND |1.8432Mhz 1/2-size Oscillator
-| 1   |232-P2        |806-K22X-E9P-N-99   | |DE9 Male Right Angle Connector  
-| 2   |232-P2 Screw  |636-SFSO4401NR      | |Jackscrew for DE9 connector
+| 1   |232-P2        |806-K22X-E9P-N-99   |2092-K22X-E9P-N-ND      |DE9 Male Right Angle Connector  
+| 2   |232-P2 Screw  |571-5207953-3       |SFSO4401NR-ND           |Jackscrew for DE9 connector
 | 1   |232-U6        |595-GD75232N        |296-GD75232N-ND         |GD75232N RS232 Driver
 | 2   |232-U7, 232-U9|595-SN74LS138N      |296-1639-5-ND           |74LS138 3-to-8 Line Demux
 | 1   |232-U8        |701-ST16C550CJ44TR-F|1016-1259-5-ND          |16550/16C550 UART in PLCC-44 Package 
-| 1   |232-U8 Socket |517-8444-11B1-RK-TP | |PLCC-44 Through Hole Socket
+| 1   |232-U8 Socket |517-8444-11B1-RK-TP |3M4411B1-ND             |PLCC-44 Through Hole Socket
 | 1   |CF-J2         |200-CES10101TD      | |1x2 2.54mm Header Socket
 | 1   |CF-U1         |595-SN74LS139AN     |296-1640-5-ND           |74LS139 Dual 2-to-4 Demux
 | 2   |CF-U2, ROM-U4 |595-SN74LS688N<br> or 595-SN74F521N      |296-1667-5-ND          |74LS688 or 74F521 8-bit Comparator
