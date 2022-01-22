@@ -53,7 +53,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 
 ## Bill of Materials
 |Quantity |Ref(s)        |Mouser Part Number  |Digikey Part Number |Description                                                     
-|-----|--------------|--------------------|----------------------------------------------------------------
+|-----|--------------|--------------------|--------------------|----------------------------------------------------------------
 | 1   |BUS1          |200-CES13101SD<br><i><b>See Note2 Below</i>| |2x31 2.54mm Header Socket
 | 1   |CF-J1         |517-8540-4500PL<br><i><b>See Note2 Below</i>| |2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 |603-CFR25SJT-26-10K | |10kOhm Resistor
