@@ -56,7 +56,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 |-----|--------------|--------------------|--------------------|----------------------------------------------------------------
 | 1   |BUS1          |200-CES13101SD<br><i><b>See Note2 Below</i>| |2x31 2.54mm Header Socket
 | 1   |CF-J1         |517-8540-4500PL<br><i><b>See Note2 Below</i>| |2x20 2.54mm Header Socket, 11mm height.
-| 4   |R1 through R4 |603-CFR25SJT-26-10K | |10kOhm Resistor
+| 4   |R1 through R4 |603-CFR-12JT-52-10K | |10kOhm Resistor
 | 16  |C1 through C16|594-K104M15X7RF53L2 | |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    | |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
 | 1   |232-OSC1      |774-MXO45HS-3C-1.8  |110-MXO45HS-3C-1M843200-ND |1.8432Mhz 1/2-size Oscillator
