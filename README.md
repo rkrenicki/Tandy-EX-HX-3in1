@@ -52,7 +52,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 |Quantity |Ref(s)        |Mouser Part Number  |Digikey Part Number |Description                                                     
 |-----|--------------|--------------------|--------------------|----------------------------------------------------------------
 | 1   |BUS1          |200-CES13101SD<br><i><b>See Note2 Below</i>|SAM1084-31-ND<br><i><b>See Note2 Below</i>|2x31 2.54mm Header Socket
-| 1   |CF-J1         |517-8540-4500PL| |2x20 2.54mm Header Socket, 11mm height.
+| 1   |CF-J1         |517-8540-4500PL     |MSPV40-ND               |2x20 2.54mm Header Socket, 11mm height.
 | 4   |R1 through R4 |603-CFR-12JT-52-10K |13-CFR-12JT-52-10KCT-ND |10kOhm Resistor, 1/10w or 1/8w
 | 16  |C1 through C16|594-K104M15X7RF53L2 |BC5142-ND               |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    |493-16276-ND            |47-100uF 6.3-16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
@@ -65,7 +65,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |232-U8 Socket |517-8444-11B1-RK-TP |3M4411B1-ND             |PLCC-44 Through Hole Socket
 | 1   |CF-J2         |200-CES10101TD      |SAM1086-01-ND           |1x2 2.54mm Header Socket
 | 1   |CF-U1         |595-SN74LS139AN     |296-1640-5-ND           |74LS139 Dual 2-to-4 Demux
-| 2   |CF-U2, ROM-U4 |595-SN74LS688N<br> or 595-SN74F521N      |296-1667-5-ND          |74LS688 or 74F521 8-bit Comparator
+| 2   |CF-U2, ROM-U4 |595-SN74LS688N<br> or 595-SN74F521N|296-1667-5-ND|74LS688 or 74F521 8-bit Comparator
 | 2   |CF-U3, RAM-U11|595-SN74LS245N      |296-1655-5-ND           |74LS245 Tri-state Bus Transciever
 | 1   |RAM-U10       |913-AS6C4008-55PCN  |1450-1027-ND            |AS6C4008-55PCN 4mbit (512k x 8) Static RAM
 | 1   |RAM-U12       |595-SN74LS00N       |296-1626-ND             |74LS00 Quad NAND Gate
