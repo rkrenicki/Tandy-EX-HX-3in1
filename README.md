@@ -32,7 +32,6 @@ ROM:   0xC000-0xC7FF
 ## Assembly Notes
 All functions of the board are independent, no parts are shared between functions.  If you do not want to use a specific function, you can safely omit any parts referenced with the function in the name (such as "232" for RS232).
 
-
 Recommended assembly order: (Shortest to tallest)
 * 1  - Resistors (R1-R3, R4 for v1.8+)
 * 2  - Bypass Capacitors (C1-C16, only noted as "0.1uF" on the boards)
@@ -42,11 +41,9 @@ Recommended assembly order: (Shortest to tallest)
 * 6  - Oscillator (OSC1)
 * 7  - UART Socket (U8 Socket)  - Pay very special attention to the orientation!  See note below.
 * 8  - Connectors (BUS1, CF-J1, CF-J2, 232-P2)
-* 8a - Bodge Resistor on rear of board.  (Only for Version 1.7a boards)
 * 9 -  ROM and UART chips into their sockets.
-* 10  - CF Adapter
-* 11 - Backplate
-
+* 10 - CF Adapter 
+* 11 - Backplate 
 
 NOTE:  Please take careful note of part orientation.  To optimize some trace routing, not all chips are oriented in the same direction.  232-U6, 232-U8, and RAM-U11 are all opposite oritentation than the other horizontal chips.  Installing these backwards will destroy the chips.   Pay special attention to 232-U8's socket, it must be installed with the "Pin 1 Arrow" installed facing towards the left of the board.  232-OSC1 is installed "upside down", with the squared corner facing the upper right.
 
@@ -89,7 +86,8 @@ This board uses the XT-IDE Universal BIOS.  I have included pre-configured image
 
 This board is designed a specific version of a CF-IDE adapter.  They are widely available on eBay and AliExpress.  It bears the mark of "IDE to CF Ver.D2".  It can generally be identified by the metal cover over the CF card connector.   I do not have a link to any one specific vendor or listing, but if the adapter includes the metal backplate and has a metal cover over the CF slot, then it should be correct. 
 
-The CF adapter does also need a few modifications, please refer to the "IDE Adapter Modifications.pdf" for details.  It also has photos of the adapter for reference to buy the proper adapter.
+The CF adapter does also need a few modifications, please refer to the "PDFs\IDE Adapter Modifications.pdf" for details.  It also has photos of the adapter for reference to buy the proper adapter.  The backplate does have provisions for a mounting tab, please follow the directions found in "PDFs\Backplate Directions.pdf"
+
 
 If you have any questions, feel free to join the Discord server below and ask in the #tandy-3in1-support channel.
 
