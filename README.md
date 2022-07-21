@@ -53,7 +53,7 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 |-----|--------------|--------------------|--------------------|----------------------------------------------------------------
 | 1   |BUS1          |200-CES13101SD<br><i><b>See Note2 Below</i>|SAM1084-31-ND<br><i><b>See Note2 Below</i>|2x31 2.54mm Header Socket
 | 1   |CF-J1         |517-8540-4500PL| |2x20 2.54mm Header Socket, 11mm height.
-| 4   |R1 through R4 |603-CFR-12JT-52-10K | |10kOhm Resistor
+| 4   |R1 through R4 |603-CFR-12JT-52-10K | |10kOhm Resistor, 1/10w or 1/8w
 | 16  |C1 through C16|594-K104M15X7RF53L2 | |0.1uF Multilayer Ceramic Capacitor, 2.5mm Lead Spacing
 | 1   |CP1           |647-RNU1C101MDS1    | |100uF 16V Polymer or Electrolytic Capacitor, 2.5mm Lead Spacing
 | 1   |232-OSC1      |774-MXO45HS-3C-1.8  |110-MXO45HS-3C-1M843200-ND |1.8432Mhz 1/2-size Oscillator
@@ -73,6 +73,8 @@ NOTE:  Please take careful note of part orientation.  To optimize some trace rou
 | 1   |ROM-U5        |556-AT28C64B15PU    |AT28C64B-15PU-ND        |28C64 64k x 8 EEPROM
 | 1   |ROM-U5 Socket |517-4828-6000-CP    |ED3052-5-ND             |28-pin Wide DIP Socket
 | 1   |CF-IDE Adapter|n/a                 |n/a                     |CF to IDE Adapter from eBay or AliExpress (See note below)
+| 1   |J1            |           |                |Mounting Tab for Backplate
+
 
 
 Note:	All 74LSxx series logic ICs can be substituted with any family with "LS" or "T" in the name, such as ALS, ACT, AHCT, or HCT among others.
@@ -88,7 +90,7 @@ This board uses the XT-IDE Universal BIOS.  I have included pre-configured image
 
 This board is designed a specific version of a CF-IDE adapter.  They are widely available on eBay and AliExpress.  It bears the mark of "IDE to CF Ver.D2".  It can generally be identified by the metal cover over the CF card connector.   I do not have a link to any one specific vendor or listing, but if the adapter includes the metal backplate and has a metal cover over the CF slot, then it should be correct. 
 
-The CF adapter does also need a few modifications, please refer to the "PDFs\IDE Adapter Modifications.pdf" for details.  It also has photos of the adapter for reference to buy the proper adapter.  The backplate does have provisions for a mounting tab, please follow the directions found in "PDFs\Backplate Directions.pdf"
+The CF adapter does also need a few modifications, please refer to "PDFs\IDE Adapter Modifications.pdf" for details.  It also has photos of the adapter for reference to buy the proper adapter.  The backplate also has provisions for a mounting tab, please follow the directions found in "PDFs\Backplate Directions.pdf"
 
 
 If you have any questions, feel free to join the Discord server below and ask in the #tandy-3in1-support channel.
