@@ -122,6 +122,3 @@ This board was derrived from works by, uses design elements from, or contains so
 * Jacob Dorne of Monotech PCs (https://monotech.fwscart.com/)
 * XTIDE Universal BIOS Team (http://www.xtideuniversalbios.org/)
 
-## README TO-DO
-* Assembly Instructions
-
